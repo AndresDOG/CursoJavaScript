@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.24rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  height: 6vh;
+  background-color: yellow;
+  text-align: center;
+}
+
+main {
+  display: flex;
+    height: 86vh;
+    background-color: blue;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+h2 {
+  position: relative;
+  margin-left: 7rem;
+  color: yellow;
+}
+
+h3 {
+  color: yellow;
+}
+
+ul {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+footer {
+  background-color: yellow;
+  height: 6vh;
+}
+
+#autor {
+  color: black;
+}
